@@ -12,7 +12,7 @@ if (isset($_POST['signin'])) {
     if ($result->num_rows === 1) {
       $row = $result->fetch_assoc();
       setcookie('user',$row['name'],time()+3600,"/");
-      header('Location:/');
+      header('Location:./user_profile.php');
       ob_end_flush();
     } else {
       $mess = "Wrong password or email";
