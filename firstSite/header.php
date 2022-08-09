@@ -17,8 +17,8 @@
         <a class="p-2 text-light bg-info rounded" href="./registration.php">Registration</a>
         <a class="p-2 text-light bg-info rounded" href="./sign-in.php">Sign In</a>
       <?php }else{?>
+        <a class="p-2 text-light bg-info rounded" href="./user_profile.php">My Profile</a>
         <a class="p-2 text-light bg-info rounded" href="./exit.php">Exit</a>
-        
       <?php 
       }
       ?>
